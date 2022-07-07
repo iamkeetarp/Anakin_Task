@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p#title-text{
+    text-align: center;
+    margin-top: 4%;
+    font-weight: 600;
+    font-size: 20px;
+}
+main, #bottom{
+   width: 80%;    
+   border-radius: 20px;
+   margin: auto;
+   margin-top: 1.5%;
+}
+#main-content{
+    display: flex;
+}
+
+#main-left{
+    width: 50%;
+    background-color:#a9d18b;
+    color: #ffffff;
+    border-radius: 20px 0px 0px 20px;
+   
+}
+#main-right{
+    width: 50%;
+    border-radius: 0px 20px 20px 0px;
+}
+img#zoom-icon{
+    width: 20px;
+    height: 20px;  
+    margin-top:0px;
+    margin-left: 10%;
+     
+}
+label#top-text{
+    display: flex; 
+    font-weight: 600;  
+}
+
+span.zoom{
+    color: #2D8CFF;
+    font-weight: bold;    
+}
+
+p#zoom{
+margin-left: 10%;
+}
+.line1{
+   color: #000000;
+   border: 1px solid rgb(228, 227, 227);
+   border-radius: 50px;
+   margin: auto;
+   width: 90%;   
+}
+
+#middle{
+    width: 90%;
+}
+#middle span,  #bottom span{
+   font-size: 14px;
+}
+#middle img{
+    width: 32px;
+    height: 32px;
+}
+#owner{
+    width: 15%;
+    margin-right: 10px;    
+}
+
+#watcher{
+    width: 35%;
+}
+.border1{
+    height: 20px;
+    width: 0;
+    border: 0.5px solid #FFFFFF;
+    position: relative;
+    right: 15px;
+    top: 25px;
+}
+#small-text{
+    font-size: 14px;
+}
+#medium-text{
+    font-size: 15px;
+}
+#detailed{
+    position:absolute;
+    right: 12%;
+    border-radius: 7px;
+    font-size: 14px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.line2{
+    color: #000000;
+    border: 0.8px solid #e3e2e2;
+    border-radius: 50px;
+    margin: auto;
+    width: 90%;   
+ }
+
+ .right-middle>p{
+    font-size: 14px;
+    margin-left: 7%;       
+ }
+ span.down-links{
+    color: rgb(204, 200, 200);
+    font-size: 10px;
+ }
+ .download{
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+ }
+ img#download-img{
+    width: 20px;
+    height: 20px;
+ }
+
+ #shortcut>label{
+    font-size: 10px;
+  }
+ label.bottom-text{
+    border-radius: 4px;
+ }
+ img.star{
+  width: 20px;  
+ }
+
+ #bottom-middle>input{
+    height: 100px;
+    width: 95%;
+    border: 1px solid #e3e2e2;
+    border-radius: 5px;
+ }
+ input::placeholder{
+    position: absolute;
+    top: 0;    
+    margin: 5px;
+    font-size: 14px;
+    color: #cecdcd;
+    font-weight: 500;
+ }
+ #buttons>input{
+    padding: 5px 35px;
+ }
+
+ input.submit{
+  border: none;
+  color: #FFFFFF;
+  background-color: #2D8CFF;
+ }
+ input.close{
+    background-color: #FFFFFF;
+    color: #000000;
+    outline: none;
+    border: 1px solid #e3e2e2;
+ }
